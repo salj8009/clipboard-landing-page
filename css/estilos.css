@@ -216,4 +216,102 @@
         background: bottom center no-repeat url(/images/bg-header-mobile.png);
         background-size: cover; 
     }
-}
+    .title {        
+        font-size: 4.5rem;
+        margin-bottom: 59px;
+    }
+    .txt-title {
+        width: 80%;
+        font-size: 1.9rem;
+        line-height: 3.1rem;
+    }
+    .img-logo img {
+        margin-top: 120px;
+        width: 30%;
+    }
+    .btn-container {
+        width: 100vw;
+        margin: 75px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        justify-content: space-evenly;
+    }
+    .btn-ios {
+        width: 100vw;
+        margin-bottom: 50px;
+        font-size: 2rem;
+        background-color: var(--Strong-Cyan);
+        border: none;
+        border-radius: 47px;
+        padding: 25px 44px;
+        font-weight: 400;
+        color: #fff;
+        box-shadow: 0px 3px 0px 0px rgb(38 112 101);
+    }
+    .btn-mac {
+        width: 100vw;
+        margin-bottom: 50px;
+        font-size: 2rem;
+        background-color: var(--Light-Blue);
+        border: none;
+        border-radius: 47px;
+        padding: 25px 44px;
+        font-weight: 400;
+        color: #fff;
+        box-shadow: 0px 3px 0px 0px rgb(62 80 199);
+    }
+    .sub-title {
+        font-size: 4rem;
+    }
+    .sub-text {
+        width: 60%;
+        margin: 51px auto;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .img-computer img {
+        width: 50%;
+        object-fit: cover;
+        margin: 30px auto;
+        display: block;
+    }
+    .content-text {
+        display: block;
+        text-align: center;
+    }
+    .img-datos {
+        display: block;
+    }
+    .quick-search h3 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .quick-search p {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    .icloud-sync h3 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .icloud-sync p {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 1.6rem;
+        line-height: 2.5rem; 
+    }
+    .complete-history h3 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .complete-history p {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 1.6rem;
+        line-height: 2.5rem; 
+    }
+}    
